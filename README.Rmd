@@ -1,0 +1,16 @@
+---
+title: "R Class Proejct"
+output: git_document
+---
+
+Chinook baseline metadata and one with the Chinook baseline genotypes. It will be a nice exercise to join them together and then, like the FRH dataset there will be tons of individuals (8000+), lots of metadata fields and genotypes
+
+2 files:
+1. baseline_genotypes.csv has 2 column formatted genotypes
+2. baseline_metadata.csv has the corresponding metadata
+
+```{r}
+library(tidyverse)
+genos <- read_csv("data/baseline_genotypes.csv")
+meta <- read_csv("data/baseline_metadata.csv")
+```
