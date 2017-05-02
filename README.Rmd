@@ -17,13 +17,14 @@ meta <- read_csv("data/baseline_metadata.csv", guess_max = 2000)
 ```
 
 Goals:
-Squish genotypes and metadata together (and document any genotypes without metadata and vice versa)
-Making sure no more than 2 alleles for each SNP
-Check for duplicate genotypes
-Check for duplicate sample names with different genotypes
-Check for date weirdness
-Length vs. weight to check for possible mis-entered data
-Summary stats: # individuals per population, allele frequencies per population
-Check species ID assay for non-Chinook
-Filter based on missing data
-Make a map of sample locations
+
+* Squish genotypes and metadata together (and document any genotypes without metadata and vice versa)
+* Making sure no more than 2 alleles for each SNP
+* Check for duplicate genotypes
+* Check for duplicate sample names with different genotypes
+* Check for date weirdness
+* Length vs. weight to check for possible mis-entered data
+* Summary stats: # individuals per population, allele frequencies per population
+* Check species ID assay for non-Chinook
+* Filter based on missing data
+* Make a map of sample locations
