@@ -1,5 +1,5 @@
 ---
-title: "R Class Proejct"
+title: "R Class Project"
 output: github_document
 ---
 

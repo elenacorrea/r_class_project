@@ -1,4 +1,4 @@
-R Class Proejct
+R Class Project
 ================
 
 Chinook baseline metadata and one with the Chinook baseline genotypes. It will be a nice exercise to join them together and then, like the FRH dataset there will be tons of individuals (8000+), lots of metadata fields and genotypes
